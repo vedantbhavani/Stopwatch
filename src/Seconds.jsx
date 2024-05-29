@@ -17,7 +17,7 @@ const Seconds = () => {
                     setsecond(second+1)
                     setmilisec(0)
                 }
-                if(second===59){
+                if(second===60){
                     setminute(minute+1)
                     setsecond(0)
                 }
@@ -49,7 +49,7 @@ const Seconds = () => {
     return (
         <>
             <div className="container">
-                <div className="timer">{minute<10?"0"+minute : minute} : {second<10 ? "0"+second :second}<span className='milisec'>:{milisec<10 ? "0"+milisec : milisec}</span></div>
+                <div className="timer">{minute<10?"0"+minute : minute} : {second<10 ? "0"+second :second}<span className='milisec'>{milisec<10 ? "0"+milisec : milisec}</span></div>
                 <div className="startstop">
                 <button onClick={StartTime} disabled={IsRunning}>Start</button>
                 <button onClick={StopTime} disabled={!IsRunning}>Stop</button>
