@@ -6,10 +6,10 @@ body{
   border-radius: 50%;
   border: 2px solid ;
   background-color: rgb(104, 102, 102);
-  width: max-content;
+  width: 32vw;
   height: max-content;
   padding: 5vw 5vw;
-  margin: 6% auto;
+  margin: 5% auto;
 }
 
 .startstop{
@@ -27,6 +27,7 @@ button{
   background-color: #62229d;
   padding: 2vh 5vw;
   font-weight: bolder;
+  font-size: larger;
   color: white;
   border-radius: 1vw;
 }
@@ -38,4 +39,7 @@ button:disabled{
 .timer{
   color: yellow;
   font-size: 10vw;
+}
+.milisec{
+  font-size: 3vw;
 }
