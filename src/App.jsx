@@ -1,5 +1,5 @@
 import './App.css'
-import Minutes from './Minutes';
+// import Minutes from './Minutes';
 import Seconds from './Seconds';
 
 const App = () => {

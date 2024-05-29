@@ -38,9 +38,11 @@ const Seconds = () => {
         <>
             <div className="container">
                 <div className="timer">{time}</div>
-                <button onClick={ReStartTime} >ReStart</button>
+                <div className="startstop">
                 <button onClick={StartTime} disabled={IsRunning}>Start</button>
                 <button onClick={StopTime} disabled={!IsRunning}>Stop</button>
+                </div>
+                <button onClick={ReStartTime} >ReStart</button>
             </div>
         </>
     )

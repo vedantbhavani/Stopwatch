@@ -1,3 +1,41 @@
+body{
+  background-color: gray;
+}
 .container{
   text-align: center;
+  border-radius: 50%;
+  border: 2px solid ;
+  background-color: rgb(104, 102, 102);
+  width: max-content;
+  height: max-content;
+  padding: 5vw 5vw;
+  margin: 6% auto;
+}
+
+.startstop{
+  display: flex;
+  width: 30vw;
+  justify-content: space-between;
+}
+.startstop button{
+  padding: 2vh 5vw;
+  font-weight: bolder;
+  border-radius: 1vw;
+}
+button{
+  margin: 3vh 0;
+  background-color: #62229d;
+  padding: 2vh 5vw;
+  font-weight: bolder;
+  color: white;
+  border-radius: 1vw;
+}
+button:disabled{
+  color: white;
+  background-color: #a37ac9;
+  cursor: no-drop;
+}
+.timer{
+  color: yellow;
+  font-size: 10vw;
 }
